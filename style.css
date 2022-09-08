@@ -1,4 +1,5 @@
 body{
+    margin:0;
     color: white;
     background-color: black;
     font-family:Arial, Helvetica, sans-serif;
@@ -18,8 +19,9 @@ header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid green
-}
+    border: 5px solid green;
+    
+    }
 .center{
     text-align: center;
 }
@@ -33,7 +35,13 @@ h1{
 footer{
     display: flex;
     justify-content: center;
+    position: fixed;
 }
+
+footer a{
+    margin: 20px;
+}
+
 nav a:hover{
     color: green;
 }
